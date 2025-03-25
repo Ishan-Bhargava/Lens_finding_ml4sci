@@ -1,1 +1,0 @@
-This folder contains final Roc curve and auc score of the common task and lens finding task
