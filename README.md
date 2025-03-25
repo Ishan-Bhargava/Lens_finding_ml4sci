@@ -28,20 +28,6 @@ pip install torch torchvision timm albumentations scikit-learn imbalanced-learn 
 
 Ensure you have access to the dataset and adjust the dataset path in the notebook accordingly.
 
-## Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/lens-finding
-   cd lens-finding
-   ```
-2. Launch Jupyter Notebook:
-   ```bash
-   jupyter notebook lens-finding.ipynb
-   ```
-3. Modify parameters in the notebook to experiment with different loss functions and training strategies.
-4. Train the model and monitor evaluation metrics.
-5. Save trained models for future inference.
-
 ## Results & Evaluation
 - Uses ROC AUC, F1-score, and confusion matrices for performance evaluation.
 - Implements visualizations to analyze model predictions and misclassifications.
