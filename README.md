@@ -20,14 +20,6 @@ Gravitational lensing is an important phenomenon in astrophysics where massive o
   - Applies learning rate scheduling and optimization techniques to stabilize training.
   - Tracks performance metrics such as ROC AUC, F1-score, precision-recall, and confusion matrices.
 
-## Requirements
-To run the notebook, install the required dependencies:
-```bash
-pip install torch torchvision timm albumentations scikit-learn imbalanced-learn matplotlib seaborn tqdm
-```
-
-Ensure you have access to the dataset and adjust the dataset path in the notebook accordingly.
-
 ## Results & Evaluation
 - Uses ROC AUC, F1-score, and confusion matrices for performance evaluation.
 - Implements visualizations to analyze model predictions and misclassifications.
