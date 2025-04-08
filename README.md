@@ -22,6 +22,8 @@ Gravitational lensing is an important phenomenon in astrophysics where massive o
 
 ## Results & Evaluation
 ### ROC Curve Comparison of 8 Models
+![ROC Curve - Multi-Class](Results/lens_finding.png)
+
 | Model | AUC Score |
 |-----------------|------------|
 | ResNet18 | 0.960 |
@@ -33,9 +35,8 @@ Gravitational lensing is an important phenomenon in astrophysics where massive o
 | ResNet18 with Complement CrossEntropyLoss | 0.865 |
 | ResNet18 trained using stratified K-Folds split | 0.976 |
 ### Confusion Matrix
+![Confusion Matrix](Results/confusion_matrix_lens_finding.png)
 
-
-### ROC Curve Comparison for Multi-Class Task
 ### ROC Curve Comparison for Multi-Class Task
 ![ROC Curve - Multi-Class](Results/common_task/common_task.png)
 | Class | AUC Score |
